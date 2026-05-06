@@ -2,9 +2,9 @@ import psycopg2
 
 #criar conexão com o banco de dados
 conexao = psycopg2.connect(
-    database="postgresDB",
-    user="admin",
-    password="admin123",
+    database="postgres", 
+    user="postgres",
+    password="gugastorm3",
     host="127.0.0.1",
     port="5432"
 )
